@@ -28,11 +28,10 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
-    background-color: #ffffff; /* White background for the header */
+    background-color: #ffffff; 
     position: sticky;
     top: 0;
     z-index: 100;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
   }
   
   .logo {
@@ -41,7 +40,7 @@ body {
   }
   
   .logo-img {
-    width: 150px; /* Adjust the logo size */
+    width: 150px; 
     height: auto;
   }
   
@@ -55,26 +54,27 @@ body {
   
   .nav-links a {
     font-weight: 600;
-    color: #9d8189; /* Subtle text color */
+    color: #9d8189;
     text-transform: uppercase;
     font-size: 1rem;
     transition: color 0.3s;
   }
   
   .nav-links a:hover {
-    color: #f4acb7; /* Hover effect */
+    color: #f4acb7; 
   }  
   
   /* Hero Section */
   .hero {
     text-align: center;
     padding: 10rem 0;
-    background-color: #ffcad4;
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4, #ffcad4);
+    color: #ffffff;
   }
-  
+
   .hero-title {
     font-size: 3rem;
-    color: #9d8189;
+    color: #ffffff;
   }
   
   .hero-subtitle {
@@ -83,7 +83,7 @@ body {
   }
   
   .highlight {
-    color: #f4acb7;
+    color: #ffffff;
   }
   
   .cta-btn {
@@ -113,14 +113,20 @@ body {
   }
   
   .about-img img {
-    width: 200px;
-    border-radius: 200px;
+    width: 300px;
+    border-radius: 300px;
   }
   
   /* Projects Section */
   .projects {
     background-color: #f4acb7;
     padding: 5rem 0;
+  }
+
+  .project-card img {
+    width: 200px;
+    height: auto;
+    align-items: center;
   }
   
   .projects-grid {
